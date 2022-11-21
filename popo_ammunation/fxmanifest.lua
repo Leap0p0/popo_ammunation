@@ -11,7 +11,6 @@ shared_scripts {
 client_scripts {
     '@es_extended/locale.lua',
     --dependance rageui--
-    "locales/en.lua",
     "locales/fr.lua",
     "src/RMenu.lua",
     "src/menu/RageUI.lua",
@@ -29,8 +28,6 @@ client_scripts {
 server_scripts {
     '@es_extended/locale.lua',
     '@mysql-async/lib/MySQL.lua',
-    "locales/en.lua",
     "locales/fr.lua",
     'server/server.lua'
 }
-
